@@ -113,8 +113,4 @@ public class GenerateDMNXml {
         nsContext.put("di", KieDMNModelInstrumentedBase.URI_DI);
         nsContext.put("dc", KieDMNModelInstrumentedBase.URI_DC);
     }
-
-    public static void main(String[] args) {
-        generateWith("Hello");
-    }
 }
